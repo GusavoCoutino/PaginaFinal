@@ -17,6 +17,8 @@
     </head>
 
     <body>
+        <script src="script.js"></script>
+        <body onload="tabla()"></body>
         <nav class="navbar   navbar-expand-lg navbar-light bg-warning  justify-content-lg-center">
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +31,17 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="casahogar1.html">Ejército de Salvación</a>
+                        <a class="nav-link" href="casahogar1.html">Casa Hogar 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="casahogar2.html">Casa Hogar del Niño</a>
+                        <a class="nav-link" href="casahogar2.html">Casa Hogar 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="casahogar3.html">Leche y Miel</a>
-                    </li>        
+                        <a class="nav-link" href="casahogar3.html">Casa Hogar 3</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="casahogar4.html">Casa Hogar 4</a>
+                  </li>       
                 </ul>
             </div>
                 </div>
@@ -49,44 +54,30 @@
             </div>
           </header> 
           <div class="w3-row-padding w3-center w3-margin-top">
-            <div class="w3-half">
+            <div class="w3-third">
               <div class="w3-card w3-container" style="min-height:460px; font-size:140%">
-              <h3 style="padding-top: 5%;"><b>Ubicación</b></h3><br>
+              <h3 style="padding-top: 5%;"><b>Dirección</b></h3><br>
               <p>Calle B No. 809 Col Ojital</p>
               <p>Tampico CP 89123</p>
               <p>Tel. 833 123-4567</p>
               <p>Horario de recepción: Lunes a viernes, 9am a 6pm</p>
-              <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.850651359835!2d-97.8304671849544!3d22.28364654913007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f9ab3320eacd%3A0xba78c2e3db8ed1ee!2sEj%C3%A9rcito%20de%20Salvaci%C3%B3n%20Cd.%20Madero!5e0!3m2!1sen!2smx!4v1609719251989!5m2!1sen!2smx" width="550" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
               </div>
             </div> 
 
-            <div class="w3-half">
+            <div class="w3-third">
                 <div class="w3-card w3-container" style="min-height:460px">
                 <h3 style="padding-top: 5%;"><b>Descripción</b></h3><br>
                 <p style="font-size:150%">Grupo pro-ancianos dedicado al desarrollo de proyectos encausados a cubrir las necesidades de los abuelitos que ahi habitan y que no cuentan con familiares</p>
-                <img src="EjercitoDeSalvacion.jpeg" alt=EjercitoDeSalvacion>
+                <img id = "Eje" src="EjercitoDeSalvacion.jpeg" alt=EjercitoDeSalvacion>
                 </div>
               </div>
 
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Producto</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Descripción</th>
-                    <th scope="col">Estado</th>
-                  </tr>
-                </thead>
-                <tbody>
-                   <tr>
-                        <th scope="row">Ropa</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                 </tr>
-                   
-            <script src="script2.js"></script>
-            <body onload="helloWorld()">
-            <p id="hola">Tabla Necesidades</p>
+              <div class="w3-third">
+                <div class="w3-card w3-container" style="min-height:460px">
+                <h3 style="padding-top: 5%;"><b>Ubicación</b></h3><br>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.850651359835!2d-97.8304671849544!3d22.28364654913007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f9ab3320eacd%3A0xba78c2e3db8ed1ee!2sEj%C3%A9rcito%20de%20Salvaci%C3%B3n%20Cd.%20Madero!5e0!3m2!1sen!2smx!4v1609719251989!5m2!1sen!2smx" width="350" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+                </div>
+              </div>
+              <table id="Tabla" class="table"></table>
     </body>
 </html>
