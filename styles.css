@@ -48,7 +48,17 @@ a:visited {
     border-bottom: 3px solid red;
 }
 
-  .Eje {
-    max-width: 100%;
-    height: auto;
+.responsive {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
   }
+}
