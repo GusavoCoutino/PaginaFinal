@@ -50,15 +50,10 @@ a:visited {
 
 .responsive {
   max-width: 100%;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px) {
-  iframe.example {
-    font-size: 50px;
-    padding: 50px;
-    border: 8px solid black;
-    background: yellow;
-  }
+#dona {
+  text-align: center;
 }
