@@ -4,12 +4,10 @@ async function tabla3(){
         "Authorization": "Bearer keyijfshbHKclSMLS"
     }})
     const myJson = await result.json()
-    let table3 = "<table><thead><tr><th>Producto</th><th >Cantidad</th><th>Descripción</th><th>Estado</th></tr></thead>"
+    let table3 = "<table><thead><tr><th>Producto</th><th>Estado</th></tr></thead>"
         for(let i=0; i<myJson?.records?.length; i++){
             console.log(myJson?.records[i])
             table3 += "<tr><td>"+myJson?.records[i]?.fields?.Producto+"</td>"
-            table3 += "<td>"+myJson?.records[i]?.fields?.Cantidad+"</td>" 
-            table3 += "<td>"+myJson?.records[i]?.fields.Descripcion+"</td>"
             table3 += "<td>"+myJson?.records[i].fields.Estado+"</td></tr>"
         }
         table3 += "</table>"

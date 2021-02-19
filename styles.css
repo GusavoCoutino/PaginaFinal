@@ -4,13 +4,13 @@
 }
 
 a:link{
-    color:black;
+    color:blue;
     text-decoration:none;
     background-color: transparent;
 }
 
 a:visited {
-    color: black;
+    color: blue;
     background-color: transparent;
     text-decoration: none;
   }
@@ -38,12 +38,6 @@ a:visited {
     padding: 15px;
   }
 
-  #descripcion{
-    text-align: center;
-    text-align: justify;
-    padding: 30px;
-  }
-
   .topnav a:hover {
     border-bottom: 3px solid red;
 }
@@ -54,6 +48,16 @@ a:visited {
   height: 200px;
 }
 
+.responsive2 {
+  max-width: 100%;
+  width: auto;
+  height: 350px;
+}
+
 #dona {
   text-align: center;
+}
+
+div.a {
+  line-height: 250%;
 }
