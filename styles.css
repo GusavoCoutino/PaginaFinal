@@ -54,6 +54,12 @@ a:visited {
   height: 350px;
 }
 
+.responsive3 {
+  max-width: 110%;
+  width: 600px;
+  height: 300px;
+}
+
 #dona {
   text-align: center;
 }
