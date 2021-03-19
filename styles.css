@@ -68,3 +68,9 @@ div.a {
   line-height: 250%;
 }
 
+#floaty{
+  vertical-align: text-bottom;
+  width: 25px;
+  height: 26px;
+}
+
