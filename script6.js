@@ -1,5 +1,5 @@
 async function tabla5(){
-    const result = await fetch('https://api.airtable.com/v0/appzKexSFKJXeZPBy/Casa%20Hogar%205?maxRecords=60&view=Grid%20view'
+    const result = await fetch('https://api.airtable.com/v0/appzKexSFKJXeZPBy/Casa%20Hogar%205?maxRecords=30&view=Grid%20view'
     ,{headers:{
         "Authorization": "Bearer keyijfshbHKclSMLS"
     }})
