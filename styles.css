@@ -56,9 +56,22 @@ a:visited {
 
 .responsive3 {
   max-width: 110%;
-  width: 600px;
+  width: auto;
   height: 300px;
 }
+
+.responsive4 {
+  max-width: 110%;
+  width: auto;
+  height: 220px;
+}
+
+.responsiveDIFmadero{
+  max-width: 110%;
+  width: auto;
+  height: 120px;
+}
+
 
 #dona {
   text-align: center;
