@@ -1,125 +1,128 @@
 .nav-bar{
-    text-align:center;
-    padding: 10px;
+  text-align:center;
+  padding: 10px;
 }
 
 a:link{
-    color:blue;
-    text-decoration:none;
-    background-color: transparent;
+  color:blue;
+  text-decoration:none;
+  background-color: transparent;
 }
 
 a:visited {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: black;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  #Donaciones{
-      text-align: center;
-       color: yellow;
-  }
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  #Ayuda{
-    text-align:center;
-    color: black;
-    padding: 15px;
-  }
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-  .topnav a:hover {
-    border-bottom: 3px solid red;
+#Donaciones{
+    text-align: center;
+     color: yellow;
+}
+
+#Ayuda{
+  text-align:center;
+  color: black;
+  padding: 15px;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
 }
 
 .responsive {
-  max-width: 100%;
-  width: auto;
-  height: 200px;
+max-width: 100%;
+width: auto;
+height: 200px;
 }
 
 .responsive2 {
-  max-width: 100%;
-  width: auto;
-  height: 350px;
+max-width: 100%;
+width: auto;
+height: 350px;
 }
 
 .responsive3 {
-  max-width: 110%;
-  width: auto;
-  height: 300px;
+max-width: 110%;
+width: auto;
+height: 280px;
 }
 
 .responsive4 {
-  max-width: 110%;
-  width: auto;
-  height: 220px;
+max-width: 110%;
+width: auto;
+height: 220px;
 }
 
+.responsive5 {
+max-width: 110%;
+width: auto;
+height: 180px;
+}
 .responsiveDIFmadero{
-  max-width: 110%;
-  width: auto;
-  height: 120px;
+max-width: 110%;
+width: auto;
+height: 120px;
 }
 
 
 #dona {
-  text-align: center;
+text-align: center;
 }
 
 @media screen and (min-width: 601px) {
-  div.a {
-    font-size: 40px;
-    line-height: 250%;
-  }
+div.a {
+  font-size: 40px;
+  line-height: 250%;
+}
 }
 
 @media screen and (max-width: 600px) {
-  div.a {
-    font-size: 25px;
-    line-height: 200%;
-  }
+div.a {
+  font-size: 25px;
+  line-height: 200%;
+}
 }
 
 
 #floaty{
-  vertical-align: text-bottom;
-  width: 25px;
-  height: 26px;
+vertical-align: text-bottom;
+width: 25px;
+height: 26px;
 }
 
 @media screen and (min-width: 601px) {
+div.intro {
+  font-size: 40px;
+}
+}
+
+@media screen and (max-width: 600px) {
   div.intro {
-    font-size: 40px;
+    font-size: 25px;
   }
-}
-
-  @media screen and (max-width: 600px) {
-    div.intro {
-      font-size: 25px;
-    }
 }
 
 @media screen and (min-width: 601px) {
+div.intro2 {
+  font-size: 35px;
+}
+}
+
+@media screen and (max-width: 600px) {
   div.intro2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
-
-  @media screen and (max-width: 600px) {
-    div.intro2 {
-      font-size: 25px;
-    }
-}
-
-
